@@ -22,6 +22,11 @@ P.S. Запросить у пользователя номер дня и выв�
 
 ### Тестирование
 
+![444](https://github.com/user-attachments/assets/f6e70831-68fd-46cd-a055-c1723d85987a)
+![333](https://github.com/user-attachments/assets/60dc11a3-60c5-4863-97d5-8200f213d4ee)
+![222](https://github.com/user-attachments/assets/c157de04-44c9-42d6-a55e-1533e746a038)
+![111](https://github.com/user-attachments/assets/df59c1c3-3fa8-4d11-93ec-9ff796573dad)
+
 
 
 
@@ -45,6 +50,10 @@ P.S. Запросить у пользователя номер дня и выв�
 
 ### Тестирование
 
+![33](https://github.com/user-attachments/assets/2b3e33b5-538c-489a-bbef-1a71e79ee8d8)
+![22](https://github.com/user-attachments/assets/199d55b1-ec6e-4414-954a-817a7d9f3280)
+![11](https://github.com/user-attachments/assets/59c24973-698c-480f-923b-63d6e251e3ea)
+![44](https://github.com/user-attachments/assets/68a89dd9-ddd8-4e41-9d42-89d32a211157)
 
 
 
@@ -83,4 +92,10 @@ P.S. Запросить у пользователя номер дня и выв�
 
 ### Тестирование
 
+![5](https://github.com/user-attachments/assets/e5c617a6-1b18-4a70-b24c-17090c36b14e)
+![4](https://github.com/user-attachments/assets/21bdfe3e-d0c0-4ede-9d34-eb68faf4f263)
+![3](https://github.com/user-attachments/assets/e391b805-9cc1-464d-bf2f-f29a4511f307)
+![2](https://github.com/user-attachments/assets/08595362-8f79-413f-a71a-e59c1234f6b1)
+![1](https://github.com/user-attachments/assets/5325ed7d-bc0a-44bd-a639-00e598b10e52)
+![6](https://github.com/user-attachments/assets/0818158b-2a0e-4c41-aa22-0b6039c7ffe0)
 
