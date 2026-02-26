@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "FcZH7LNnjSg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BOSS\\source\\repos\\Lab1_Zd1\\Lab1_Zd1\\Lab1_Zd1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BOSS\\.nuget\\packages\\fsharp.core\\10.0.103\\fsharp.core.10.0.103.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\BOSS\\source\\repos\\Lab1_Zd1\\Lab1_Zd1\\Lab1_Zd1.fsproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\BOSS\\source\\repos\\Lab1_Zd1\\Lab1_Zd1\\Lab1_Zd1.fsproj",
+      "targetGraphs": []
+    }
+  ]
+}

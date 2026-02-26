@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BOSS\\source\\repos\\Lab1_Zd1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19833350-6FCB-AD3D-9861-16140F5E760C}|Lab1_Zd1\\Lab1_Zd1.fsproj|c:\\users\\boss\\source\\repos\\lab1_zd1\\lab1_zd1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{19833350-6FCB-AD3D-9861-16140F5E760C}|Lab1_Zd1\\Lab1_Zd1.fsproj|solutionrelative:lab1_zd1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.fs",
+              "DocumentMoniker": "C:\\Users\\BOSS\\source\\repos\\Lab1_Zd1\\Lab1_Zd1\\Program.fs",
+              "RelativeDocumentMoniker": "Lab1_Zd1\\Program.fs",
+              "ToolTip": "C:\\Users\\BOSS\\source\\repos\\Lab1_Zd1\\Lab1_Zd1\\Program.fs",
+              "RelativeToolTip": "Lab1_Zd1\\Program.fs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-20T05:05:17.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
