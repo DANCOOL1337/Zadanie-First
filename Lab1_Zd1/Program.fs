@@ -76,8 +76,10 @@ let rec getItem index list =
     match list with
     | [] -> failwith "Индекс вне диапазона"      
     | head :: tail ->                             
-        if index = 0 then head                     
-        else getItem (index - 1) tail              
+        if index = 0 then
+            head                     
+        else 
+            getItem (index - 1) tail              
 
 //Добавить элемент в конец списка
 let rec addToEnd element list = 
@@ -91,16 +93,20 @@ let rec removeByValue value list =
     match list with
     | [] -> []                                      
     | head :: tail ->
-        if head = value then tail                    
-        else head :: (removeByValue value tail)      
+        if head = value then
+            tail                    
+        else
+            head :: (removeByValue value tail)      
 
 //Проверить существование элемента в списке
 let rec contains element list = 
     match list with
     | [] -> false                                   
     | head :: tail ->
-        if head = element then true                  
-        else contains element tail                   
+        if head = element then
+            true                  
+        else 
+            contains element tail                   
 
 
 //Добавить к концу первого списка второй список(сцепка)
@@ -123,8 +129,9 @@ let readList () =
     printf "Введите числа через пробел: "
     //Разделяем строку по пробелам
     let input = Console.ReadLine().Split(' ')
-    //Строки в числа
-    [ for i in 0 .. input.Length - 1 -> int input.[i] ]  
+    //Строки в числа 
+    List.ofArray input |> List.map int
+    
 
 // Ввод одного числа
 let readNumber prompt =
