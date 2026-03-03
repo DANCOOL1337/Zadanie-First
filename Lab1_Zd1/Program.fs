@@ -3,35 +3,35 @@ open System
 
 //Zadanie 1
 //(*
-let NewDayList()=
+let newDayList()=
     ["Понедельник";"Вторник";"Среда";"Четверг";
         "Пятница";"Суббота";"Воскресенье"]
 
-let AskUser()=
+let askUser()=
     printfn"Введите порядковый номер дня недели (1-7): "
     int (Console.ReadLine())
 
 //Поиск для недели по номеру
-let FindDay number days= 
+let findDay number days= 
     if number >=1 && number <=7 then
         Some (List.item (number-1) days)
     else 
         None
 
 //Вывод ошибки или результата
-let ShowResult day= 
+let showResult day= 
     match day with
     | Some d-> printfn"Выбран день недели: %s "d
     | None -> printfn"Некорректный ввод,введите другое число."
 
 [<EntryPoint>]  
 let main args =
-    let days=NewDayList()
-    let input=AskUser()
-    ShowResult(FindDay input days)
+    let days=newDayList()
+    let input=askUser()
+    showResult(findDay input days)
     0
 
-*)
+//*)
 
 //Zadanie 2
 
@@ -43,10 +43,10 @@ let rec containsDigit (number: int) (k: int) : bool =
     else
         let lastDigit = abs(number % 10) 
         if lastDigit = k then 
-        //Если последняя цифра числа равна искомой то круто
+        //Если последняя цифра числа равна искомой то возвращаем true
             true
         else
-        //Иначе не круто и ищем дальше
+        //Иначе ищем дальше
             containsDigit (number / 10) k 
 
 [<EntryPoint>]
