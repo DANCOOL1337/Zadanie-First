@@ -3,34 +3,43 @@ open System
 
 //Zadanie 1
 //(*
-let newDayList()=
-    ["Понедельник";"Вторник";"Среда";"Четверг";
-        "Пятница";"Суббота";"Воскресенье"]
+//Ввода списка дней
+let readDaysList () =
+    printf "Введите дни недели через пробел: "
+    let input = Console.ReadLine()
+    input.Split(' ') 
+    |> Array.toList 
+    |> List.filter (fun d -> d <> "")
 
-let askUser()=
-    printfn"Введите порядковый номер дня недели (1-7): "
-    int (Console.ReadLine())
+//Вывода списка дней
+let printDaysList days =
+    printfn "\nДни недели по порядку:"
+    days |> List.iteri (fun i day -> printfn "%d. %s" (i + 1) day)
 
-//Поиск для недели по номеру
-let findDay number days= 
-    if number >=1 && number <=7 then
-        Some (List.item (number-1) days)
-    else 
+//Получение дня по номеру
+let getDayByNumber number days =
+    if number >= 1 && number <= List.length days then
+        Some (List.item (number - 1) days)
+    else
         None
 
-//Вывод ошибки или результата
-let showResult day= 
-    match day with
-    | Some d-> printfn"Выбран день недели: %s "d
-    | None -> printfn"Некорректный ввод,введите другое число."
+//Ввода числа
+let readNumber () =
+    printf "Введите номер дня: "
+    int (Console.ReadLine())
 
-[<EntryPoint>]  
-let main args =
-    let days=newDayList()
-    let input=askUser()
-    showResult(findDay input days)
+[<EntryPoint>]
+let main argv =
+    let days = readDaysList ()
+    printDaysList days
+    
+    let number = readNumber ()
+    let result = getDayByNumber number days
+    
+    match result with
+    | Some day -> printfn "Под номером %d: %s" number day
+    | None -> printfn "Ошибка:введите число от 1 до %d"(List.length days)
     0
-
 //*)
 
 //Zadanie 2
